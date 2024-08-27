@@ -1,0 +1,27 @@
+.site__header{
+  padding: 20px;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__list{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar__link{
+  color: #28224B;
+
+  &:hover{
+    color: #35B8BE;
+  }
+}
+
+.header__img{
+  margin-bottom: 10px;
+}

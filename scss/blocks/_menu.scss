@@ -1,0 +1,144 @@
+.menu__section{
+  padding: 154px;
+  background-color:#F5FBFC;
+}
+
+.menu__content-title{
+  margin-bottom: 26px;
+  font-family: Inter;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 1.649999976158142px;
+  text-align: center;
+  color:#35B8BE;
+}
+
+.menu__content-text{
+  max-width: 450px;
+  margin-left: 29%;
+  margin-bottom: 50px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.36000001430511475px;
+  text-align: center;
+}
+
+.menu__content-text > span{
+  color: #35B8BE;
+}
+
+.menu__content-btn-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.menu__content-btn{
+  width: 147px;
+  height: 52px;
+  margin-bottom: 40px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  color: #FFFFFF;
+  background-color: #35B8BE;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+
+  &:hover{
+    color: #35B8BE;
+    background-color: #FFFFFF;
+    border: 1.5px solid #35B8BE;
+  }
+}
+
+.menu__burger-title-section{
+  display: flex;
+  align-items: center;
+  gap: 157px;
+  margin-bottom: 18px;
+}
+
+.menu__burger-title{
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.6000000238418579px;
+  color: #08090A;
+}
+
+.menu__burger-span{
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #35B8BE;
+}
+
+.menu__burger-text{
+  max-width: 351px;
+  margin-bottom: 8px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3199999928474426px;
+  text-align: left;
+  color: #546285;
+}
+
+.menu__last-section{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.menu__count-btn{
+  width: 60px;
+  height: 45px;
+  border-radius: 6px;
+  border: 1px solid #35B8BE;
+  color: #000000;
+  background-color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.36000001430511475px;
+
+  &:hover{
+    color: #08090A;
+    background-color: #35B8BE;
+    border: none;
+  }
+}
+
+.menu__card-btn{
+  width: 115px;
+  height: 45px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  color: #000000;
+  background-color: #35B8BE;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.36000001430511475px;
+
+  &:hover{
+    color: #35B8BE;
+    background-color: #FFFFFF;
+    border: 1px solid #35B8BE;
+  }
+}

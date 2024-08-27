@@ -1,0 +1,52 @@
+.call__section{
+  padding: 140px;
+  background-color: #F5FBFC;
+}
+
+.call{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.call__title{
+  max-width: 576px;
+  margin-bottom: 29px;
+  font-family: Inter;
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 1.649999976158142px;
+  color: #35B8BE;
+}
+
+.call__text{
+  max-width: 500px;
+  margin-bottom: 47px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.36000001430511475px;
+  color: #546285;
+}
+
+.call__btn{
+  width: 225px;
+  height: 60px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  color: #FFFFFF;
+  background-color: #35B8BE;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+
+  &:hover{
+    color: #35B8BE;
+    background-color: #FFFFFF;
+    border: 1.5px solid #35B8BE;
+  }
+}
